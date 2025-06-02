@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UmpanBalikController;
 
 Route::get('/', function () {
-    return view('login');
+    return view('welcome');
 });
 Route::get('/dashboard', function () {
     return view('dashboard');
